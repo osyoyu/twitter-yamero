@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+
+  "name": "twitter-yamero",
+  "description": "Twitter やめろ",
+  "version": "1.0",
+
+  "permissions": [
+    "tabs"
+  ],
+
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  }
+}
+
