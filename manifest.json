@@ -9,10 +9,13 @@
     "tabs"
   ],
 
+  "browser_action": {
+    "default_title": "Twitter やめろ"
+  },
+
   "background": {
     "scripts": [
       "background.js"
     ]
   }
 }
-
