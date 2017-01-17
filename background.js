@@ -1,6 +1,6 @@
 "use strict";
 
-let active = false;
+let active = true;
 
 function countTwitterTabs(callback) {
   let twitterTabsCount = 0;
@@ -58,7 +58,7 @@ chrome.browserAction.onClicked.addListener((tab) => {
       active = true;
       chrome.browserAction.setIcon({
         path: {
-          '16': 'icons/icon16-active.png'
+          '16': 'icons/icon16.png'
         }
       });
     });
